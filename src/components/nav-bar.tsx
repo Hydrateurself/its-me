@@ -6,7 +6,7 @@ export const NavBar = () => {
           <a>Reddit</a>
         </li>
         <li>
-          <a href="#section3">Principals</a>
+          <a href="#section3">Princeples</a>
         </li>
         <li>
           <a href="#section4">Skills</a>
