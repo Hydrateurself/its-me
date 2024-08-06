@@ -102,7 +102,7 @@ export const skillsData: Image[] = [
     src: "/Images/software-skills/react.png",
     alt: "image of react logo",
     modalcontent:
-      "REACT, my go to tool of this list. I relly enjoy working with it. Even this site is built on top of React.Great library 10/10 would recommend.",
+      "REACT, my go to tool of this list. I really enjoy working with it. Even this site is built on top of React.Great library 10/10 would recommend.",
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ export const skillsData: Image[] = [
     src: "/Images/software-skills/vs-code.png",
     alt: "image of vs code logo",
     modalcontent:
-      "VS Code is for now my Code Editor of choise. I thought about changing to VIM and some point, but for now i stick with it.",
+      "VS Code is for now my Code Editor of choise. I thought about changing to VIM and some point, but for now I stick with it.",
   },
 ];
 
