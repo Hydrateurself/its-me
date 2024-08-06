@@ -15,7 +15,8 @@ export const SectionTwo = () => {
           How do you get to know a person best? Naturally, through their
           algorithm. I created my personal feed from a forum I enjoy scrolling
           sometimes. I'am not that obsessed with social media, but this app got
-          my attention for sure!
+          my attention for sure!Just Scroll through my feed to see who I'am, at
+          least a little...
         </p>
       </div>
       <div
