@@ -40,7 +40,7 @@ export const SectionFive = () => {
         </h2>
         <p className="font-lekton w-full text-xl m-auto md:ml-10 p-4 md:w-2/3 md:pl-10">
           I've always been fascinated by the Universe. This World we live in is
-          such a uinque and special place. So here is the Astronomical
+          such a unique and special place. So here is the Astronomical
           Image/Video of the Day as little reminder how beautiful this
           envoirenment is.
         </p>
