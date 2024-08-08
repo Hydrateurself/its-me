@@ -97,7 +97,7 @@ export const SectionTwo = () => {
           />
           <Cards
             title="b/piano"
-            description="This is my Piano. I love playing the keys and exploring the world of sound. Music in general plays a big role in my life"
+            description="This is my Piano. I love playing the keys and exploring the world of sound. Music in general plays a big role in my life."
             src="/Images/piano.jpeg"
             alt="A picture of my piano"
           />
@@ -109,7 +109,7 @@ export const SectionTwo = () => {
           />
           <VideoCards
             title="b/skate"
-            description="Skateboarding has been a big part of my life for almost 13 years. I've always enjoyed the freedom of riding a skateboard and just be who you are. Nowadays I don't skate much anymore"
+            description="Skateboarding has been a big part of my life for almost 13 years. I've always enjoyed the freedom of riding a skateboard and just be who you are. Nowadays I don't skate much anymore."
             src="/Images/skate.MP4"
             alt={"A video of me skating"}
           />
@@ -121,7 +121,7 @@ export const SectionTwo = () => {
           />
           <Cards
             title="b/outdoor"
-            description="Being in the woods feels good. I enjoy wandering through nature with my girlfriend"
+            description="Being in the woods feels good. I enjoy hiking through nature with my girlfriend."
             src="/Images/zig-zag-wanderer.jpeg"
             alt="A picture of me wandering in the woods"
           />
@@ -141,7 +141,7 @@ export const SectionTwo = () => {
             title="b/juli"
             description="Last but not least, , my partner in crime. I love her from the bottom of my heart. MVP of my life <3"
             src="/Images/juli.JPG"
-            alt="A picture of my bike."
+            alt="A picture of my girlfriend."
           />
         </div>
         <div
