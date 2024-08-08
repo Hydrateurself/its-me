@@ -37,7 +37,7 @@ export const SectionOne = () => {
               whileTap={{ scale: 1 }}
               className="font-lekton text-red-100 font-bold text-xl rounded-full border-4 border-red-100 w-52 bg-red-500 py-2 px-4 active:bg-red-700"
             >
-              About this page
+              Click Me!
             </motion.button>
           </div>
           <div className="flex flex-col justify-center items-center w-2/3 mt-6">
