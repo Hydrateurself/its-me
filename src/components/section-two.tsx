@@ -97,19 +97,19 @@ export const SectionTwo = () => {
           />
           <Cards
             title="b/piano"
-            description="This is my Piano. I love playing the keys and exploring the world of sound. Music in genral plays a big role in my life"
+            description="This is my Piano. I love playing the keys and exploring the world of sound. Music in general plays a big role in my life"
             src="/Images/piano.jpeg"
             alt="A picture of my piano"
           />
           <Cards
             title="b/drums"
-            description="God is in the rhythm! I always wanted to play drums as a kid. Unfortenatly this could not happen. Now i fullfilled my dream and started learning the drums one year ago."
+            description="God is in the rhythm! I always wanted to play drums as a kid. Unfortunately this could not happen. Now i fullfilled my dream and started learning the drums."
             src="/Images/drums.jpeg"
             alt="A picture of two drum sticks laying on a snare drum"
           />
           <VideoCards
             title="b/skate"
-            description="Skateboarding has been a big part of my life for almost 13 years. I alwyas enjoyed the freedom of riding a skateboard and just be who you are. Nowadays I don't skate much anymore"
+            description="Skateboarding has been a big part of my life for almost 13 years. I've always enjoyed the freedom of riding a skateboard and just be who you are. Nowadays I don't skate much anymore"
             src="/Images/skate.MP4"
             alt={"A video of me skating"}
           />
@@ -135,6 +135,12 @@ export const SectionTwo = () => {
             title="b/bike"
             description="I want to ride my bicycle bicycle bicycle!"
             src="/Images/bike.jpeg"
+            alt="A picture of my bike."
+          />
+          <Cards
+            title="b/juli"
+            description="Last but not least, , my partner in crime. I love her from the bottom of my heart. MVP of my life <3"
+            src="/Images/juli.JPG"
             alt="A picture of my bike."
           />
         </div>
