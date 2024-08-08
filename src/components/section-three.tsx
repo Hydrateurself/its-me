@@ -15,7 +15,7 @@ export default function SectionThree() {
       id="section3"
       className="w-full h-auto bg-green-200 bg-gradient-to-b from-green-200 via-green-100 to-green-200 flex flex-col relative overflow-hidden"
     >
-      <h2 className="font-ultra text-5xl lg:text-6xl text-black p-4 mb:ml-10 mb-6">
+      <h2 className="font-ultra text-5xl lg:text-6xl text-black p-4 md:ml-10 mb-6">
         The things I care about...
       </h2>
       <div
