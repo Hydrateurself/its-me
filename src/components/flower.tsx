@@ -12,26 +12,18 @@ export const Flower = () => {
     <svg
       ref={ref}
       width="200"
-      height="250"
-      viewBox="0 0 479 812"
+      height="200"
+      viewBox="0 0 753 743"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <motion.path
         initial={{ pathLength: 0 }}
         animate={{ pathLength: isInView ? 1 : 0 }}
-        transition={{ duration: 30, ease: "easeInOut" }}
-        d="M144.5 230.766C87.536 218.421 41.2558 201.621 26.5 184C33.5 131.167 78.2 25.5 201 25.5C217.785 25.5 233.045 26.044 247 27.1608M144.5 230.766C197.19 242.185 259.021 249.792 313.5 250.712M144.5 230.766V348.5M313.5 250.712C405.686 252.268 476.822 234.675 447 184C387.771 83.3561 360.67 36.2575 247 27.1608M313.5 250.712V307.5M247 27.1608V133M144.5 348.5V681.5L247 774L313.5 681.5V307.5M144.5 348.5L313.5 307.5"
+        transition={{ duration: 20, ease: "easeInOut" }}
+        d="M193.455 262.521L372.648 300.1M372.648 300.1L556.847 262.521M372.648 300.1V442.9M372.648 442.9L446.227 562.151M372.648 442.9L312.082 562.151M372.648 15C-117.881 15 -90.3518 728 372.648 728C824.635 728 893.71 15 372.648 15ZM376.152 140.264C419.699 140.264 446.227 222.436 376.152 222.436C306.076 222.436 332.605 140.264 376.152 140.264Z"
         stroke="black"
-        stroke-width="20"
-      />
-      <motion.path
-        initial={{ pathLength: 0 }}
-        animate={{ pathLength: isInView ? 1 : 0 }}
-        transition={{ duration: 30, ease: "easeInOut" }}
-        d="M160 445.5L308.5 404.5M160 553.5L308.5 502M160 651L308.5 604.5"
-        stroke="black"
-        stroke-width="20"
+        stroke-width="30"
       />
     </svg>
   );

@@ -18,8 +18,11 @@ export const SectionOne = () => {
     }
   });
   return (
-    <section id="section1" className="w-full h-screen relative bg-neutral-300">
-      <div>
+    <section
+      id="section1"
+      className="w-full h-screen relative bg-neutral-300 overflow-hidden"
+    >
+      <div className="absolute w-full h-screen bg-cover">
         <MotherBoardSvg />
       </div>
       <div
@@ -53,11 +56,10 @@ export const SectionOne = () => {
           </div>
         </div>
       </div>
-      {modal ? <Modal toggleModal={toggleModal} /> : null}
-
       <div className="absolute w-full bottom-0">
         <ShapeDeviderSvg />
       </div>
+      {modal ? <Modal toggleModal={toggleModal} /> : null}
     </section>
   );
 };
