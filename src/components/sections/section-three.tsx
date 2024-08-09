@@ -46,7 +46,7 @@ export default function SectionThree() {
         </div>
         <div className="mb-8 md:mb-8 md:col-start-2 md:row-start-2">
           <motion.h3
-            className="font-ultra mb-2 text-2x text-neutral-700"
+            className="font-ultra mb-2 text-2xl text-neutral-700"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ type: "spring", duration: 3 }}
