@@ -131,18 +131,15 @@ export const SectionFour = ({ skills }: Props) => {
   const [hoveredItems, setHoveredItems] = useState<null | number>(null);
 
   return (
-    <section
-      id="section4"
-      className="flex w-full h-auto flex-col bg-neutral-300"
-    >
+    <section id="section4" className="flex w-full h-auto flex-col bg-black">
       <div className="w-full">
         <ShapeDeviderFour />
       </div>
       <div>
-        <h2 className=" font-ultra text-5xl lg:text-6xl text-neutral-700 p-4 mb-2 md:ml-10">
+        <h2 className=" font-ultra text-5xl lg:text-6xl text-red-50 p-4 mb-2 md:ml-10">
           Some tools i can work with
         </h2>
-        <p className="font-lekton md:ml-10 p-4 text-xl">
+        <p className="font-lekton md:ml-10 p-4 text-xl text-red-50">
           Here is a little look inside my toolbox. These are the basis of my
           daily work. Hover over the fields to get some more information.
         </p>
@@ -155,7 +152,7 @@ export const SectionFour = ({ skills }: Props) => {
               key={skill.id}
               onMouseOver={() => setHoveredItems(skill.id)}
               onMouseLeave={() => setHoveredItems(null)}
-              className="w-24 md:w-28 aspect-square p-4 border-4 border-neutral-400 rounded-md shadow-lg"
+              className="w-24 md:w-28 aspect-square p-4 border-4 border-red-200 rounded-md shadow-lg bg-red-50"
             >
               <img
                 src={skill.src}

@@ -13,7 +13,7 @@ export default function SectionThree() {
   return (
     <section
       id="section3"
-      className="w-full h-auto bg-green-200 bg-gradient-to-b from-blue-200 via-blue-200 to-blue-100 flex flex-col relative overflow-hidden"
+      className="w-full h-auto bg-green-200 bg-gradient-to-b from-red-100 via-red-100 to-red-50 flex flex-col relative overflow-hidden"
     >
       <h2 className="font-ultra text-5xl lg:text-6xl text-neutral-700 p-4 md:ml-10 mb-6">
         What really drives me

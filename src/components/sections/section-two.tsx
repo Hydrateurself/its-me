@@ -5,7 +5,7 @@ export const SectionTwo = () => {
   return (
     <section
       id="section2"
-      className="w-full h-200 flex flex-col bg-green-200 bg-gradient-to-b from-blue-200 via-blue-200 to-blue-200 overflow-hidden"
+      className="w-full h-200 flex flex-col bg-green-200 bg-gradient-to-b from-red-100 via-red-50 to-red-100 overflow-hidden"
     >
       <div className="m-2 p-2 w-3/4 md:ml-10">
         <h2 className="flex font-ultra text-5xl lg:text-6xl mb-6 mt-2 text-neutral-700">
