@@ -30,7 +30,7 @@ export const SectionOne = () => {
         className="flex justify-center items-center h-5/6"
       >
         <div className="rounded w-11/12 h-3/4 flex justify-center items-center flex-col shadow-2xl custom-backdrop border-4 border-neutral-300">
-          <h1 className="font-ultra text-5xl lg:text-8xl text-red-100 p-8">
+          <h1 className="font-ultra text-5xl lg:text-8xl text-red-50 p-8">
             Hey I'am <br /> Benedict
           </h1>
           <div>
