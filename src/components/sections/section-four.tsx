@@ -139,7 +139,7 @@ export const SectionFour = ({ skills }: Props) => {
         <ShapeDeviderFour />
       </div>
       <div>
-        <h2 className=" font-ultra text-5xl lg:text-6xl text-black p-4 mb-2 md:ml-10">
+        <h2 className=" font-ultra text-5xl lg:text-6xl text-neutral-700 p-4 mb-2 md:ml-10">
           Some tools i can work with
         </h2>
         <p className="font-lekton md:ml-10 p-4 text-xl">

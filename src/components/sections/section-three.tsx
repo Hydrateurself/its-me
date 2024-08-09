@@ -13,9 +13,9 @@ export default function SectionThree() {
   return (
     <section
       id="section3"
-      className="w-full h-auto bg-green-200 bg-gradient-to-b from-green-200 via-green-100 to-green-200 flex flex-col relative overflow-hidden"
+      className="w-full h-auto bg-green-200 bg-gradient-to-b from-blue-200 via-blue-200 to-blue-100 flex flex-col relative overflow-hidden"
     >
-      <h2 className="font-ultra text-5xl lg:text-6xl text-black p-4 md:ml-10 mb-6">
+      <h2 className="font-ultra text-5xl lg:text-6xl text-neutral-700 p-4 md:ml-10 mb-6">
         What really drives me
       </h2>
       <div
@@ -24,7 +24,7 @@ export default function SectionThree() {
       >
         <div className="mb-8 md:mb-0">
           <motion.h3
-            className="font-ultra mb-2 text-2xl"
+            className="font-ultra mb-2 text-2xl text-neutral-700"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ type: "spring", duration: 3 }}
@@ -36,7 +36,7 @@ export default function SectionThree() {
             className="font-lekton leading-6"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ type: "spring", duration: 3 }}
+            transition={{ type: "spring", duration: 5 }}
           >
             {firstText}
           </motion.p>
@@ -46,7 +46,7 @@ export default function SectionThree() {
         </div>
         <div className="mb-8 md:mb-8 md:col-start-2 md:row-start-2">
           <motion.h3
-            className="font-ultra mb-2 text-2xl"
+            className="font-ultra mb-2 text-2x text-neutral-700"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ type: "spring", duration: 3 }}
@@ -58,7 +58,7 @@ export default function SectionThree() {
             className="font-lekton leading-6"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ type: "spring", duration: 3 }}
+            transition={{ type: "spring", duration: 5 }}
           >
             {secondText}
           </motion.p>
@@ -68,7 +68,7 @@ export default function SectionThree() {
         </div>
         <div className="mb-8 md:mb-0">
           <motion.h3
-            className="font-ultra mb-2 text-2xl"
+            className="font-ultra mb-2 text-2xl text-neutral-700"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ type: "spring", duration: 3 }}
@@ -80,7 +80,7 @@ export default function SectionThree() {
             className="font-lekton leading-6"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ type: "spring", duration: 3 }}
+            transition={{ type: "spring", duration: 5 }}
           >
             {thirdText}
           </motion.p>

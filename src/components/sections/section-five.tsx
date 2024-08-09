@@ -35,7 +35,7 @@ export const SectionFive = () => {
   return (
     <section id="section5" className="w-full h-auto bg-neutral-300">
       <div className="pt-12 text-center md:text-left">
-        <h2 className="font-ultra m-2 p-2 text-5xl lg:text-6xl text-black md:pt-10 md:pl-10 md:ml-10">
+        <h2 className="font-ultra m-2 p-2 text-5xl lg:text-6xl text-neutral-700 md:pt-10 md:pl-10 md:ml-10">
           Space is the Place
         </h2>
         <p className="font-lekton w-full text-xl m-auto md:ml-10 p-4 md:w-2/3 md:pl-10">
@@ -47,7 +47,7 @@ export const SectionFive = () => {
 
         <div className="flex justify-center w-full h-auto">
           <div className="flex flex-col w-screen ml-10 mr-10 p-6">
-            <h3 className=" flex font-ultra pt-4 pb-4 mb-2 text-3xl w-auto m-auto">
+            <h3 className=" flex font-ultra pt-4 pb-4 mb-2 text-3xl w-auto m-auto text-neutral-700">
               {apdodData.title}
             </h3>
             {apdodData.media_type === "image" ? (

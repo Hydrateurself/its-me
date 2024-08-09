@@ -8,9 +8,9 @@ export const SectionSix = () => {
       </div>
       <section
         id="section6"
-        className="w-full h-auto bg-green-200 bg-gradient-to-b from-green-200 via-green-100 to-neutral-50"
+        className="w-full h-auto bg-blue-300 bg-gradient-to-b from-blue-100 via-blue-200 to-blue-50"
       >
-        <h2 className="font-ultra text-4xl lg:text-6xl pl-4 pr-4 pt-4 md:p-6 md:ml-10">
+        <h2 className="font-ultra text-4xl lg:text-6xl pl-4 pr-4 pt-4 md:p-6 md:ml-10 text-neutral-700">
           You reached the end of the page
         </h2>
         <div className="flex flex-col md:flex-row justify-center w-full p-4 md:p-6 gap-6">

@@ -5,10 +5,10 @@ export const SectionTwo = () => {
   return (
     <section
       id="section2"
-      className="w-full h-200 flex flex-col bg-green-200 bg-gradient-to-b from-green-200 via-green-100 to-green-200 overflow-hidden"
+      className="w-full h-200 flex flex-col bg-green-200 bg-gradient-to-b from-blue-200 via-blue-200 to-blue-200 overflow-hidden"
     >
       <div className="m-2 p-2 w-3/4 md:ml-10">
-        <h2 className="flex font-ultra text-5xl lg:text-6xl mb-6 mt-2 text-black">
+        <h2 className="flex font-ultra text-5xl lg:text-6xl mb-6 mt-2 text-neutral-700">
           It's me, i guess...
         </h2>
         <p className="font-lekton text-black w-auto md:w-96 text-xl">
@@ -22,11 +22,11 @@ export const SectionTwo = () => {
       <div className="flex w-full h-auto justify-center">
         <div
           id="reddit-whole"
-          className="mb-16 w-[370px] bg-black border-8 filter shadow-xl shadow-black rounded-3xl border-gray-500"
+          className="mb-16 w-[370px] bg-black border-8 filter shadow-xl shadow-black rounded-3xl border-neutral-500"
         >
           <div
             id="top-middle"
-            className="w-[150px] h-[15px] mx-auto bg-gray-500 rounded-b-lg"
+            className="w-[150px] h-[15px] mx-auto bg-neutral-500 rounded-b-lg"
           ></div>
           <div
             id="reddit-head"
