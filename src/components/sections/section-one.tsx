@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import MotherBoardSvg from "./motherBoardSVG";
-import ShapeDeviderSvg from "./shape-devider";
-import Modal from "./modal";
+import MotherBoardSvg from "../Animated/motherBoardSVG";
+import ShapeDeviderSvg from "../Shapes/shape-devider";
+import Modal from "../modal";
 
 export const SectionOne = () => {
   const [modal, setModal] = useState(false);
@@ -49,8 +49,8 @@ export const SectionOne = () => {
                 Try to solve the riddle, for some extra information!
               </p>
               <p className="flex font-barcode text-red-100 text-sm md:text-2xl self center">
-                Hey, Let's built a better web and make it accessable to everyone
-                who needs it! For a future of knowlege!
+                Hey, let's build a better web and make it accessible to
+                everyone. Who needs it? For a future of knowledge!
               </p>
             </div>
           </div>

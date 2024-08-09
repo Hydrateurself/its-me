@@ -1,5 +1,5 @@
-import { Cards } from "./reddit-cards";
-import { VideoCards } from "./video-card";
+import { Cards } from "../reddit-cards";
+import { VideoCards } from "../video-card";
 
 export const SectionTwo = () => {
   return (
@@ -14,8 +14,8 @@ export const SectionTwo = () => {
         <p className="font-lekton text-black w-auto md:w-96 text-xl">
           How do you get to know a person best? Naturally, through their
           algorithm. I created my personal feed from a forum I enjoy scrolling
-          sometimes. I'am not that obsessed with social media, but this app got
-          my attention for sure!Just Scroll through my feed to see who I'am, at
+          sometimes. I'm not that obsessed with social media, but this app got
+          my attention for sure! Just scroll through my feed to see who I'm at
           least a little...
         </p>
       </div>
@@ -98,25 +98,25 @@ export const SectionTwo = () => {
             />
             <Cards
               title="b/piano"
-              description="This is my Piano. I love playing the keys and exploring the world of sound. Music in general plays a big role in my life."
+              description="This is my piano. I love playing the keys and exploring the world of sound. Music in general plays a big role in my life."
               src="/Images/piano.jpeg"
               alt="A picture of my piano"
             />
             <Cards
               title="b/drums"
-              description="God is in the rhythm! I always wanted to play drums as a kid. Unfortunately this could not happen. Now i fullfilled my dream and started learning the drums."
+              description="God is in the rhythm! I always wanted to play drums as a kid. Unfortunately, this could not happen. Now I fulfilled my dream and started learning the drums."
               src="/Images/drums.jpeg"
               alt="A picture of two drum sticks laying on a snare drum"
             />
             <VideoCards
               title="b/skate"
-              description="Skateboarding has been a big part of my life for almost 13 years. I've always enjoyed the freedom of riding a skateboard and just be who you are. Nowadays I don't skate much anymore."
+              description="Skateboarding has been a big part of my life for almost 13 years. I've always enjoyed the freedom of riding a skateboard and just being who you are. Nowadays, I don't skate much anymore."
               src="/Images/skate.MP4"
               alt={"A video of me skating"}
             />
             <Cards
               title="b/family"
-              description="This is me and my dad. I love him! He always supports me in what I'am doing no matter what."
+              description="This is me and my dad. I love him! He always supports me in what I'm doing, no matter what."
               src="/Images/me-and-dad.jpeg"
               alt="A picture of me and my dad"
             />
@@ -128,7 +128,7 @@ export const SectionTwo = () => {
             />
             <Cards
               title="b/friends"
-              description="Fun with friends while camping. We eat pretty well in the wild i guess."
+              description="Fun with friends while camping. We eat pretty well in the wild, i guess."
               src="/Images/zwenki.jpeg"
               alt="A picture of some food on a camp fire."
             />
@@ -140,7 +140,7 @@ export const SectionTwo = () => {
             />
             <Cards
               title="b/juli"
-              description="Last but not least, , my partner in crime. I love her from the bottom of my heart. MVP of my life <3"
+              description="Last but not least, my partner in crime. I love her from the bottom of my heart. MVP of my life <3"
               src="/Images/juli.JPG"
               alt="A picture of my girlfriend."
             />

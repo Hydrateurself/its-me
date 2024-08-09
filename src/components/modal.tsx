@@ -16,12 +16,12 @@ export default function Modal({ toggleModal }: Props) {
         >
           <h2>A little more detail...</h2>
           <p>
-            I'am currently on the path of becoming a Web Developer. With this
+            I'm currently on the path of becoming a web developer. With this
             page I want to show you who I am and give you a little insight into
             my interests and my skills. If you want to follow me on this path
-            close this message, scroll down and explore the site. Please note:
-            This Page is responsive, but some features won't work properly yet.
-            For the full experience please consider using desktop view. Have
+            Close this message, scroll down, and explore the site. Please note:
+            This page is responsive, but some features won't work properly yet.
+            For the full experience, please consider using desktop view. Have
             Fun!
           </p>
           <button className="flex m-auto p-4" onClick={toggleModal}>

@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Robo } from "./robo";
-import { Flower } from "./flower";
-import { World } from "./world";
+import { Robo } from "../Animated/robo";
+import { Flower } from "../Animated/flower";
+import { World } from "../Animated/world";
 
-const firstText = `I am a very creative person, whether in music or in everyday life, I love to think creatively and discover new ways and approaches. So it plays one of the biggest roles in my life. Expressing myself through my creative actions is very important to me and a big part of my personality.`;
+const firstText = `I am a very creative person, whether in music or in everyday life. I love to think creatively and discover new ways and approaches. So it plays one of the biggest roles in my life. Expressing myself through my creative actions is very important to me and a big part of my personality.`;
 
-const secondText = `Communication is one of my strengths. Over the course of my life I have learned to communicate openly and honestly. In my opinion it is essential in order to be able to make progress with other people in a society and to avoid misunderstandings.`;
+const secondText = `Communication is one of my strengths. Over the course of my life, I have learned to communicate openly and honestly. In my opinion it is essential in order to be able to make progress with other people in a society and to avoid misunderstandings.`;
 
-const thirdText = `Equality has always been very important to me. In my educational work with people, I have always aimed to create access and overcome barriers, regardless of ethnic origin, social status or physical disabilities.`;
+const thirdText = `Equality has always been very important to me. In my educational work with people, I have always aimed to create access and overcome barriers, regardless of ethnic origin, social status, or physical disabilities.`;
 
 export default function SectionThree() {
   return (
@@ -16,7 +16,7 @@ export default function SectionThree() {
       className="w-full h-auto bg-green-200 bg-gradient-to-b from-green-200 via-green-100 to-green-200 flex flex-col relative overflow-hidden"
     >
       <h2 className="font-ultra text-5xl lg:text-6xl text-black p-4 md:ml-10 mb-6">
-        The things I care about...
+        What really drives me
       </h2>
       <div
         id="textcontainer"
