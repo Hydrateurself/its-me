@@ -12,7 +12,7 @@ export default function Modal({ toggleModal }: Props) {
       >
         <div
           id="modal-content"
-          className="flex flex-wrap w-[600px] h-auto bg-white p-4 rounded"
+          className="flex flex-wrap w-[600px] h-auto bg-red-100 border-4 rounded-md p-4 border-red-200 text-black "
         >
           <h2>A little more detail...</h2>
           <p>
