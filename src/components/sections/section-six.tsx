@@ -3,12 +3,12 @@ import { ShapeDeviderSix } from "../Shapes/shape-devider-six";
 export const SectionSix = () => {
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black mt-1 p-0">
         <ShapeDeviderSix />
       </div>
       <section
         id="section6"
-        className="w-full h-auto bg-red-50 bg-gradient-to-b from-red-100 via-red-50 to-red-50"
+        className="w-full h-auto bg-red-50 bg-gradient-to-b from-red-100 via-red-50 to-red-50 -mt-1"
       >
         <h2 className="font-ultra text-4xl lg:text-6xl pl-4 pr-4 pt-4 md:p-6 md:ml-10 text-neutral-700">
           You reached the end of the page
