@@ -1,7 +1,4 @@
 import { motion } from "framer-motion";
-import { Robo } from "../Animated/robo";
-import { Flower } from "../Animated/flower";
-import { World } from "../Animated/world";
 
 const firstText = `I am a very creative person, whether in music or in everyday life. I love to think creatively and discover new ways and approaches. So it plays one of the biggest roles in my life. Expressing myself through my creative actions is very important to me and a big part of my personality.`;
 
