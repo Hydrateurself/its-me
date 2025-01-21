@@ -20,9 +20,9 @@ export default function SectionThree() {
       </h2>
       <div
         id="textcontainer"
-        className="max-w-screen-md mx-auto md:grid md:grid-cols-2 md:gap-8 p-4 text-black text-sm md:text-xl"
+        className="flex justify-around flex-col md:flex-row lg:w-max-screen mt-10 mb-52 mx-auto p-4 text-black md:text-xl"
       >
-        <div className="mb-8 md:mb-0">
+        <div className="p-8 ">
           <motion.h3
             className="font-ultra mb-2 text-2xl text-neutral-700"
             initial={{ opacity: 0 }}
@@ -41,10 +41,7 @@ export default function SectionThree() {
             {firstText}
           </motion.p>
         </div>
-        <div className="flex justify-center items-center mb-8 md:mb-0">
-          <Robo />
-        </div>
-        <div className="mb-8 md:mb-8 md:col-start-2 md:row-start-2">
+        <div className="p-8">
           <motion.h3
             className="font-ultra mb-2 text-2xl text-neutral-700"
             initial={{ opacity: 0 }}
@@ -63,10 +60,7 @@ export default function SectionThree() {
             {secondText}
           </motion.p>
         </div>
-        <div className="flex justify-center items-center mb-8 md:mb-0 md:col-start-1 md:row-start-2">
-          <World />
-        </div>
-        <div className="mb-8 md:mb-0">
+        <div className="p-8">
           <motion.h3
             className="font-ultra mb-2 text-2xl text-neutral-700"
             initial={{ opacity: 0 }}
@@ -77,16 +71,13 @@ export default function SectionThree() {
           </motion.h3>
           <motion.p
             id="third-text"
-            className="font-lekton leading-6"
+            className="font-lekton"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ type: "spring", duration: 5 }}
           >
             {thirdText}
           </motion.p>
-        </div>
-        <div className="flex justify-center items-center">
-          <Flower />
         </div>
       </div>
     </section>
